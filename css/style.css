@@ -57,6 +57,9 @@ main{
 .capa p {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.5em;
+    float: right;
+    position: relative;
+    bottom: 20px;
 }
 
 .conteudo {
@@ -111,19 +114,27 @@ label img{
 .menu ul li a:hover{
     background-color: #d98e327c;
     color: #207263;
+    transition: 200ms ease-in-out;
 }
 
 .menu ul{
     list-style: none;
 }
 
+#home .menu .home a,
+#sobre .menu .sobre a,
+#portfolio .menu .portfolio a,
+#contato .menu .contato a {
+    background-color: #d98e327c;
+    color: #207263;
+}
+
 nav {
     background-color: #D9A384;
     width: 350px;
-    height: 89%;
     left: -350px;
     position: absolute;
-    transition: 300ms;
+    transition: 300ms ease-out;
 }
 
 input[type="checkbox"]:checked ~ nav {
