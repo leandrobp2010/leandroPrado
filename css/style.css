@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #d98e327c;
+    background-image: url(../img/capa.png);
+}
+
+
+header{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    
+}
+
+.topoPreto{
+    background-color: #01223F;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid #207263;
+}
+        
+.nomeBranco{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    color: #f0f0f0;
+    font-size: 1.8em;
+    padding-right: 10%;
+    padding-top: 15px;
+    margin: 0px;
+    float: right;
+}
+#principal {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.capa {
+    background: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.capa h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7em;
+}
+
+.capa p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5em;
+}
+
+.conteudo {
+    width: 100%;
+    padding: 15px;
+    background: #f0f0f0;
+    margin-bottom: 2%;
+}
+
+.titulo-conteudo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+}
+
+.texto-conteudo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8em;
+}
+
+#principal a {
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8em;
+    display: block;
+    padding: 10px 5px 0px;
+}
+
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #BF452A;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    padding: 20px 10px;
+    border-bottom: 1px solid #2072630c;
+}
+
+.menu ul li a:hover{
+    background-color: #d98e327c;
+    color: #207263;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+nav {
+    background-color: #D9A384;
+    width: 350px;
+    height: 89%;
+    left: -350px;
+    position: absolute;
+    transition: 300ms;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
