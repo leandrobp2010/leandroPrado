@@ -97,6 +97,7 @@ label img{
     height: 60px;
     position: absolute;
     z-index: 3;
+    cursor: pointer;
 }
 
 .menu ul li a {
